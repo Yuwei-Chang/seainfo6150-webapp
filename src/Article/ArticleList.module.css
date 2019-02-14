@@ -1,0 +1,19 @@
+.background {
+     background-color :#dcdcdc; 
+}
+
+#background1 {
+    border: 1px solid black;
+    background:#ffffff;
+    padding: 20px;
+    width: 50%;
+    left: 20%;
+    position: relative;
+}
+
+#background2 {
+    border: 1.1px dashed black;
+    background: #a9a9a9;
+    padding:30px;
+    margin: 30px;
+}
