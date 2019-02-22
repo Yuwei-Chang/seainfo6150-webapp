@@ -15,8 +15,10 @@
 
 #background2 {
     border: 1.1px dashed black;
+    border-radius: 25px;
     background: #a9a9a9;
     padding:30px;
     margin: 30px;
     z-index: 2;
+    list-style: none;
 }

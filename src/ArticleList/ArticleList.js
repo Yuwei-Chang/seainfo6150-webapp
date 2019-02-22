@@ -8,6 +8,7 @@ const ArticleList = ({ articles }) => (
     <section className={styles.background}>
     <div id={styles.background1}>
         <ul id={styles.background2}>
+          <li>
     {
         // this iterates through the articles JSON and
         // calls your ArticleListItem component for each article
@@ -19,10 +20,12 @@ const ArticleList = ({ articles }) => (
             year={article.pubYear}
             author={article.author}
             shortText={article.shortText}
-          />
+            url={article.image._url}
+          /> 
         })
     }
-        </ul>
+        </li>
+      </ul>
     </div>
     </section>  
   );
