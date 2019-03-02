@@ -1,31 +1,44 @@
-#list {
+.item {
     list-style-type: none;
-    background-color:#fffaf0;
+    text-align: left;
+    box-shadow: 10px 10px 5px #888888;
+    background: rgba(255, 250, 240);
     border: 1.5px solid#dc143c;
-    padding: 20px;
-    margin:30px;
+    padding: 5px;
+    height: auto;
+    width: auto;
+    margin:5%;
     font-family:"Times New Roman", Times, serif;
     z-index: 3;
+    background-image: linear-gradient(to right,lightcoral,white 20%);
 }
 
 #title {
     color: #dc143c;
     font-weight: bold;
     font-size: 1.2em;
-    height: 5px;
+    height: auto;
+    margin-bottom: 0px;
+    position: relative;
+
 }
 
 #shortText {
-    font-size: 1em;   
+    text-align: left;
+    font-size: 1em;  
+    margin-top: 0; 
 }
 
 #author {
-    text-align: right;
+    text-align: left;
     font-size: 1em;
+    position: relative;
 }
 
 #date {
-    float: right;
+    float: left;
     font-weight: bold;
     font-size: 1em;
+    position: relative;
 }
+

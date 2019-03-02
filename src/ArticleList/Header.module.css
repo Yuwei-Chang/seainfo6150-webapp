@@ -1,0 +1,21 @@
+.header {
+    background-color:#dc143c;
+    display: inline-flex;
+    font-family:"Times New Roman", Times, serif;
+    align-items: center;
+    height: 150px;
+    width: 67.5%;
+    margin-left: 10%;
+    color:white;
+    padding-left:8%;
+    padding-right: 8%;
+    justify-content: space-between;
+    position: relative;
+    z-index: 2;
+}
+
+h2 {
+    font-family:"Times New Roman", Times, serif;
+    font-weight: bold;
+    font-size: 2em;
+}

@@ -1,0 +1,24 @@
+.footer {
+    background-color:#dc143c;
+    display: inline-flex;
+    font-family:"Times New Roman", Times, serif;
+    align-items: center;
+    height: 150px;
+    width: 67.5%;
+    margin-left: 10%;
+    color:white;
+    padding-left:8%;
+    padding-right: 8%;
+    justify-content: flex-start;
+    position: relative;
+    z-index: 2;
+}
+
+address, span, time {
+    font-family:"Times New Roman", Times, serif;
+    font-weight: bold;
+    font-size: 1em;
+}
+time {
+    font-weight: lighter;
+}
