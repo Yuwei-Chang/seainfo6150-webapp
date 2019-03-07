@@ -42,13 +42,13 @@
     }
 }
 
-@media (min-width: 800px) {
+@media (min-width: 1500px) {
     .grid_box {
         display: inline-grid;
         grid-template-columns: 33% 33% 33%;
     }
 }
-@media (min-width: 1000px) {
+@media (min-width: 2000px) {
     .grid_box {
         display: inline-grid;
         grid-template-columns: 25% 25% 25% 25% ;
