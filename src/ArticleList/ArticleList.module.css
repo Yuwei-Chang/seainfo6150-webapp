@@ -14,16 +14,17 @@
      
 }
 
-#background2 {
+.background2 {
     border: 1.1px dashed black;
     background: #a9a9a9;
     padding:10px;
     margin: auto;
-    z-index: 2;
+    z-index: 2; 
     list-style: none;
+ 
+}
+.grid_box {
     display: inline-grid;
     grid-template-columns: auto auto auto;
-    grid-column-gap: 5px;
-    grid-row-gap: 5px;
-    justify-items: stretch;
 }
+
