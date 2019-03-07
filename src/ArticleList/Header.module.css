@@ -1,11 +1,11 @@
 .header {
     background-color:#dc143c;
-    display: inline-flex;
+    display: flex;
     font-family:"Times New Roman", Times, serif;
     align-items: center;
     height: 150px;
-    width: 67.5%;
-    margin-left: 10%;
+    width: auto;
+    margin-bottom: 10px;
     color:white;
     padding-left:8%;
     padding-right: 8%;
