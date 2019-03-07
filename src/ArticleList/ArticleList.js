@@ -9,8 +9,9 @@ const ArticleList = ({ articles }) => (
     <section className={styles.background}>
     <div id={styles.background1}>
     <Header />
-        <div id={styles.background2}>
-        
+        <div className={styles.background2}>
+        <div className={styles.grid_box}>
+       
         
     {
         // this iterates through the articles JSON and
@@ -27,11 +28,12 @@ const ArticleList = ({ articles }) => (
           /> 
         })
     }
-
-     
+    </div>
       </div>
       <Footer />
-    </div>
+      </div>
+      
+    
     </section>  
   );
 
